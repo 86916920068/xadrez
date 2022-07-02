@@ -8,83 +8,129 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div id="movs">
+    <button class="movs" id="img1" onclick="lc1()"><img src="imgs/movcav1.png" alt=""></button>
+    <button class="movs" onclick="l2()"></button>
+  </div>
     <table>
+      <tr>
+      <th></th>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
+      <th>D</th>
+      <th>E</th>
+      <th>F</th>
+      <th>G</th>
+      <th>H</th>
+      </tr>
         <tr>
-          <td class="p"></td>
-          <td class="b"></td>
-          <td class="p"></td>
-          <td class="b"></td>
-          <td class="p"></td>
-          <td class="b"></td>
-          <td class="p"></td>
+          <th class="nmrs">1</th>
+          <td class="p" id="p1"></td>
+          <td class="b" id="b1"></td>
+          <td class="p" id="p2"></td>
+          <td class="b" id="b2"></td>
+          <td class="p" id="p3"></td>
+          <td class="b" id="b3"></td>
+          <td class="p" id="p4"></td>
+          <td class="b" id="b4"></td>
+          <th class="nmrs">1</th>
         </tr>
         <tr>
-          <td class="b"></td>
-          <td class="p"></td>
-          <td class="b"></td>
-          <td class="p"></td>
-          <td class="b"></td>
-          <td class="p"></td>
-          <td class="b"></td>
-          <td class="p"></td>
+          <th class="nmrs">2</th>
+          <td class="b" id="b5"></td>
+          <td class="p" id="p5"></td>
+          <td class="b" id="b6"></td>
+          <td class="p" id="p6"></td>
+          <td class="b" id="b7"></td>
+          <td class="p" id="p7"></td>
+          <td class="b" id="b8"></td>
+          <td class="p" id="p8"></td>
+          <th class="nmrs">2</th>
         </tr>
         <tr>
-          <td class="p"></td>
-          <td class="b"></td>
-          <td class="p"></td>
-          <td class="b"></td>
-          <td class="p"></td>
-          <td class="b"></td>
-          <td class="p"></td>
+          <th class="nmrs">3</th>
+          <td class="p" id="p9"></td>
+          <td class="b" id="b9"></td>
+          <td class="p" id="p10"></td>
+          <td class="b" id="b10"></td>
+          <td class="p" id="p11"></td>
+          <td class="b" id="b11"></td>
+          <td class="p" id="p12"></td>
+          <td class="b" id="b12"></td>
+          <th class="nmrs">3</th>
         </tr>
         <tr>
-            <td class="b"></td>
-            <td class="p"></td>
-            <td class="b"></td>
-            <td class="p"></td>
-            <td class="b"></td>
-            <td class="p"></td>
-            <td class="b"></td>
-            <td class="p"></td>
+          <th class="nmrs">4</th>
+            <td class="b" id="b13"></td>
+            <td class="p" id="p13"></td>
+            <td class="b" id="b14"></td>
+            <td class="p" id="p14"></td>
+            <td class="b" id="b15"></td>
+            <td class="p" id="p15"></td>
+            <td class="b" id="b16"></td>
+            <td class="p" id="p16"></td>
+            <th class="nmrs">4</th>
         </tr>
         <tr>
-            <td class="p"></td>
-            <td class="b"></td>
-            <td class="p"></td>
-            <td class="b"></td>
-            <td class="p"></td>
-            <td class="b"></td>
-            <td class="p"></td>
+          <th class="nmrs">5</th>
+            <td class="p" id="p17"></td>
+            <td class="b" id="b17"></td>
+            <td class="p" id="p18"></td>
+            <td class="b" id="b18"></td>
+            <td class="p" id="p19"></td>
+            <td class="b" id="b19"></td>
+            <td class="p" id="p20"></td>
+            <td class="b" id="b20"></td>
+            <th class="nmrs">5</th>
         </tr>
         <tr>
-            <td class="b"></td>
-            <td class="p"></td>
-            <td class="b"></td>
-            <td class="p"></td>
-            <td class="b"></td>
-            <td class="p"></td>
-            <td class="b"></td>
-            <td class="p"></td>
+          <th class="nmrs">6</th>
+            <td class="b" id="b21"></td>
+            <td class="p" id="p21"></td>
+            <td class="b" id="b22"></td>
+            <td class="p" id="p22"></td>
+            <td class="b" id="b23"></td>
+            <td class="p" id="p23"></td>
+            <td class="b" id="b24"></td>
+            <td class="p" id="p24"></td>
+            <th class="nmrs">6</th>
         </tr>
         <tr>
-            <td class="p"><img src="imgs/peao.jpg" alt="peão"></td>
-            <td class="b"><img src="imgs/peao.jpg" alt="peão"></td>
-            <td class="p"><img src="imgs/peao.jpg" alt="peão"></td>
-            <td class="b"><img src="imgs/peao.jpg" alt="peão"></td>
-            <td class="p"><img src="imgs/peao.jpg" alt="peão"></td>
-            <td class="b"><img src="imgs/peao.jpg" alt="peão"></td>
-            <td class="p"><img src="imgs/peao.jpg" alt="peão"></td>
+          <th class="nmrs">7</th>
+            <td class="p" id="p25"><img class="coisa" id="peao" src="imgs/peao.png" alt="peão"></td>
+            <td class="b" id="b25"><img class="coisa" id="peao" src="imgs/peao.png" alt="peão"></td>
+            <td class="p" id="p26"><img class="coisa" id="peao" src="imgs/peao.png" alt="peão"></td>
+            <td class="b" id="b26"><img class="coisa" id="peao" src="imgs/peao.png" alt="peão"></td>
+            <td class="p" id="p27"><img class="coisa" id="peao" src="imgs/peao.png" alt="peão"></td>
+            <td class="b" id="b27"><img class="coisa" id="peao" src="imgs/peao.png" alt="peão"></td>
+            <td class="p" id="p28"><img class="coisa" id="peao" src="imgs/peao.png" alt="peão"></td>
+            <td class="b" id="b28"><img class="coisa" id="peao" src="imgs/peao.png" alt="peão"></td>
+            <th class="nmrs">7</th>
         </tr>
         <tr>
-            <td class="b"></td>
-            <td class="p"></td>
-            <td class="b"></td>
-            <td class="p"></td>
-            <td class="b"></td>
-            <td class="p"></td>
-            <td class="b"></td>
-            <td class="p"></td>
+          <th class="nmrs">8</th>
+            <td class="b" id="b29"><img class="coisa" id="torrep" src="imgs/torre.png" alt=""></td>
+            <td class="p" id="p29"><button onclick="cal()"><img class="coisa" id="cavalop" src="imgs/cavalo.png" alt=""></button></td>
+            <td class="b" id="b30"><img class="coisa" id="bistop" src="imgs/bispo.png" alt=""></td>
+            <td class="p" id="p30"><img class="coisa" id="rainhap" src="imgs/rainha.png" alt=""></td>
+            <td class="b" id="b31"><img class="coisa" id="reip" src="imgs/rei.png" alt="reipretas"></td>
+            <td class="p" id="p31"><img class="coisa" id="bistop" src="imgs/bispo.png" alt=""></td>
+            <td class="b" id="b32"><img class="coisa" id="cavalop" src="imgs/cavalo.png" alt=""></td>
+            <td class="p" id="p32"><img class="coisa" id="torrep" src="imgs/torre.png" alt=""></td>
+            <th class="nmrs">8</th>
         </tr>
+        <tr>
+          <th></th>
+          <th>A</th>
+          <th>B</th>
+          <th>C</th>
+          <th>D</th>
+          <th>E</th>
+          <th>F</th>
+          <th>G</th>
+          <th>H</th>
+          </tr>
       </table>
 <script src="script.js"></script>
 </body>
